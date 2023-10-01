@@ -4,7 +4,7 @@ const cors = require('cors');
 const { shopRoutes } = require('./routes/shopRoutes');
 const app = express();
 // const { logger } = require('./middleware/logger');
-const PORT = 4000 || process.env.PORT;
+const PORT = 4001 || process.env.PORT;
 
 // Middleware
 app.use(cors())
