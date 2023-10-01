@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 const apiRouter = express.Router();
-app.use('/api', apiRouter);
+app.use('/', apiRouter);
 
 // /api/users
 apiRouter.use('/shop', shopRoutes);
